@@ -1,9 +1,21 @@
+/*DOCTYPE html */
+
+html
+.lang="fr"
+
 /*head */
 
 head
 {
 	display: none;
 }
+
+/*style.css */
+
+script
+.css
+title
+.CV
 
 /*Partie gauche_principale de la maquette */
 
@@ -195,13 +207,13 @@ i /*Tailles, couleur des icones titres*/
 
 /*Tailles,marges et dates */
 
-.fa-graduation-cap, .fa-briefcase, .fa-pen
+.fa-graduation-cap .fa-briefcase .fa-pen
 
 {
 	margin-right: 15px;
 	font-size: 20px;
 }
-.fa-dot-circle, .fa-circle
+.fa-dot-circle .fa-circle
 {
 	font-size: 80%;
 	margin-right: 10px;
