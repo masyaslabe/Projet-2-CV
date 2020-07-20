@@ -1,0 +1,212 @@
+/*head */
+
+head
+{
+	display: none;
+}
+
+/*Partie gauche_principale de la maquette */
+
+aside
+{ 
+	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	vertical-align: top;
+	
+	background-color: #ffa500;
+	max-width: 400px;
+	margin: 3px;
+	border: 1px;
+}
+
+	#liseret,#contenu
+{
+	display: inline-block;
+	flex-direction: column;
+	vertical-align: top;
+}
+}
+
+#liseret, 
+{
+	background-color: #ffa500;
+	width: 10%;
+	margin-right:3%;
+	height: 500px;
+	border-radius: 10px;
+}
+
+#contenu
+{ 
+ 	display:flex;
+	width: 85%;
+}	
+
+/*photo et marges */
+
+.roundImage
+{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    
+}
+
+/*Partie section contact */
+
+h3 
+{ 
+	border: 1px solid black;	
+	background-color:#000000; /*fond noir */
+	color:#ffa500; 
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	font-weight: bold;
+	padding-top: 5px;
+	margin-bottom: 5px;
+  	font-size: 1.3em; 
+ 	border-radius: 1%;
+}
+
+p
+{	font-family: 'droid_sansbold', Arial, sans-serif}
+{
+ 	font-size: 0.9em;
+ 	text-align: left;
+ 	font-weight: bold;			
+}
+
+ /*Partie section a_propos_de_moi */
+
+ h3 
+ { 	
+	background-color:000000; /*fond noir */
+ 	text-transform: uppercase;
+ 	text-align: left;
+ 	font-weight: bold;
+ }
+
+ .a_propos_de_moi
+
+ {
+ 	font-size: 0.9em;
+ 	padding: 23px;
+ 	margin-left: 15px;
+ 	margin-right: 15px;
+ 	margin-top: 5px;
+ 	margin-bottom: 15px;
+ 	color: #ffa500;
+ }
+
+p
+{	font-family: 'droid_sansbold', Arial, sans-serif}
+{ 
+	font-size: 0.9em;
+ 	font-style: normal;
+ 	text-align: left;
+ 	width:30%;
+}
+
+/*Section Loisirs */
+
+ .fas-icon_loisirs 
+
+ {
+  	font-size: 125%;
+ }
+
+	/* Col_droite_principale */
+body
+{
+	display: -webkit-box;
+	display: flex;
+}
+
+main
+{
+	display: inline-block;
+	display: flex;
+	vertical-align: top;
+	flex-direction: column;
+	background-color: #ffffff;
+	width: 900px; 
+	{font-family: 'droid_sansbold', Arial, sans-serif}	
+}
+
+/* titre principale*/
+
+header h1 h2
+{
+ 	font-family: 'droid_sansbold', Arial, sans-serif
+} 
+
+header h1
+
+{
+
+	text-align: left;
+    font-size: 40px;
+    text-transform: uppercase; 
+    margin-top: 80px;
+    padding-left: 23px;
+  }
+
+.introduction
+{
+	color: #ffa500;
+}
+
+header h2 
+{
+    font-size: 20px;
+    text-align: left;
+    padding-top: 2px; 
+    padding-left: 23px;
+    margin-bottom:60px;    
+}
+
+.souligné
+{
+	text-decoration: underline;
+	color: #ffa500;
+}
+
+/*Marges, bordure orange */
+
+.formation, .expe_pro, .reco
+{
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+  	text-align: left;
+  	margin-right:6%
+  	margin-bottom: 2px;
+  	padding-bottom: 2px;	 
+}
+
+i /*Tailles, couleur des icones titres*/
+{
+	font-size: 140%
+	color: #ffa500;
+}
+
+/*Tailles,marges et dates */
+
+.fa-graduation-cap, .fa-briefcase, .fa-pen
+
+{
+	margin-right: 15px;
+	font-size: 20px;
+}
+.fa-dot-circle, .fa-circle
+{
+	font-size: 80%;
+	margin-right: 10px;
+}
+
+
+
+
