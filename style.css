@@ -1,15 +1,18 @@
+/*doctype html */
+
 html
 
 .lang="fr
 
 head
+
 {
 	display: none;
 }
 
 body
+
 {
-	display: -webkit-box;
 	display: flex;
 }
 
@@ -36,7 +39,8 @@ aside
 }
 }
 
-#liseret, 
+#liseret
+
 {
 	background-color: #ffa500;
 	width: 10%;
@@ -90,9 +94,9 @@ p
 
  /*Section a_propos_de_moi */
 
- h3 
+h3 
  { 	
-	background-color:000000; /*fond noir */
+	background-color: #000000; /*fond noir */
  	text-transform: uppercase;
  	text-align: left;
  	font-weight: bold;
@@ -129,7 +133,7 @@ p
 }
 h3 
  { 	
-	background-color:000000; /*fond noir */
+	background-color: #000000; /*fond noir */
  	text-transform: uppercase;
  	text-align: left;
  	font-weight: bold;
