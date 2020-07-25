@@ -1,4 +1,4 @@
-/*doctype html */
+/*DOCTYPE html */
 
 html
 
@@ -10,12 +10,19 @@ head
 	display: none;
 }
 
-body
+title
+.cv
 
+body
+{
+	margin: 0;
+	{	font-family: 'droid_sansbold', Arial, sans-serif}
+
+}
+#conteneur
 {
 	display: flex;
 }
-
 /*colgauche_gauche_principale */
 
 aside
