@@ -7,6 +7,12 @@ head
 	display: none;
 }
 
+body
+{
+	display: -webkit-box;
+	display: flex;
+}
+
 /*colgauche_gauche_principale */
 
 aside
@@ -142,11 +148,7 @@ h3
 }
 
 	/* Col_droite_principale */
-body
-{
-	display: -webkit-box;
-	display: flex;
-}
+
 
 main
 {
