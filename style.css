@@ -13,16 +13,11 @@ head
 title
 .cv
 
-body
-{
-	margin: 0;
-	{	font-family: 'droid_sansbold', Arial, sans-serif}
-
-}
 #conteneur
 {
-	display: flex;
+	display: block;
 }
+
 /*colgauche_gauche_principale */
 
 aside
@@ -44,7 +39,6 @@ aside
 	flex-direction: column;
 	vertical-align: top;
 }
-}
 
 #liseret
 
@@ -52,7 +46,7 @@ aside
 	background-color: #ffa500;
 	width: 10%;
 	margin-right:3%;
-	height: 500px;
+	height: 40px;
 	border-radius: 10px;
 }
 
@@ -62,16 +56,20 @@ aside
 	width: 85%;
 }	
 
+#photo { 
+  background-color:; 
+}
+
 /*photo et marges */
 
 .roundImage
 {
     overflow:hidden;
-    -webkit-border-radius:50px;
-    -moz-border-radius:50px;
-    border-radius:50px;
-    width:90px;
-    height:90px;
+    -webkit-border-radius:200px;
+    -moz-border-radius:200px;
+    border-radius:200px;
+    max-width:300px;
+    max-height:300px;
     
 }
 
