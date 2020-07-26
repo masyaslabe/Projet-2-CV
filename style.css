@@ -131,14 +131,14 @@ p
 
 /*Section Loisirs */
 
-h3 
+section.loisirs
  { 	
 	background-color: #000000; /*fond noir */
  	text-transform: uppercase;
  	text-align: center;
  	font-weight: bold;
  }
- .loisirs
+.loisirs
 {
 	display: flex;
 	justify-content: space-around;
@@ -173,9 +173,9 @@ h3
  	height: 64px;
  	border-radius: 100px;
 }
+/*Fin de aside */
 
 	/* Col_droite_principale */
-
 
 main
 {
@@ -225,32 +225,10 @@ header h2
 	text-decoration: underline;
 	color: #ffa500;
 }
-/*section formation */
 
-.i
-{
-	width: 3%;
-	color: #ffa500;
-}
-/*Marges, bordure orange */
+/*Fin de header */
 
-.formation, .expe_pro, .reco
-{
- 	text-transform: uppercase;
- 	font-weight: bold;
-  	text-align: left;
-  	margin-right:6%
-  	margin-bottom: 2px;
-  	padding-bottom: 2px;	 
-}
-
-i /*Tailles, couleur des icones titres*/
-{
-	font-size: 140%
-	color: #ffa500;
-}
-
-/*Tailles,marges et dates */
+/*Contenu de la section 1 formation */
 
 .fa-graduation-cap .fa-briefcase .fa-pen
 
@@ -264,6 +242,51 @@ i /*Tailles, couleur des icones titres*/
 	margin-right: 10px;
 }
 
+section .i 
+{
+	color: #ffa500;
+}
 
+/*Tailles,marges et dates */
+
+
+h3 .formation .expe_pro .recom
+{
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+  	text-align: left;
+  	margin-right:6%
+  	margin-bottom: 2px;
+  	padding-bottom: 2px;	 
+}
+
+hr
+{
+	color: #ffa500;
+}
+
+i
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+.class
+{
+	text-align: center;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.diplome .date
+{
+	width: 15%;
+}
 
 
