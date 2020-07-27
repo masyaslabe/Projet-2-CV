@@ -228,15 +228,18 @@ header h2
 
 /*Fin de header */
 
+
 /*Contenu de la section 1 formation */
 
-.fa-graduation-cap .fa-briefcase .fa-pen
+
+.fa-graduation-cap 
 
 {
 	margin-right: 15px;
 	font-size: 20px;
 }
-.fa-dot-circle .fa-circle
+
+.fa-dot-circle 
 {
 	font-size: 80%;
 	margin-right: 10px;
@@ -246,6 +249,7 @@ section .i
 {
 	color: #ffa500;
 }
+
 
 /*Tailles,marges et dates */
 
@@ -284,9 +288,218 @@ i
 	margin-bottom: 25px
 }
 
-.diplome .date
+.diplome.date
 {
 	width: 15%;
+}
+
+h4 h5
+{
+	
+}
+
+p
+{
+	
+}
+
+/*Contenu section 2 formation */
+
+ 
+.fa-circle
+{
+	font-size: 80%;
+	margin-right: 10px;
+}
+
+section .i 
+{
+	color: #ffa500;
+}
+
+
+/*Tailles,marges et dates */
+
+
+i
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+.class
+{
+	text-align: center;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.diplome.date
+{
+	width: 15%;
+}
+
+h4 h5
+{
+	
+}
+
+p
+{
+	
+}
+
+
+/*Fin section formation */
+
+
+/*Contenu de la section 1 de l'experience professionnelle */
+
+
+.fa-briefcase 
+
+{
+	margin-right: 15px;
+	font-size: 20px;
+}
+.fa-dot-circle 
+{
+	font-size: 80%;
+	margin-right: 10px;
+}
+
+i
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+.class
+{
+	text-align: center;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.diplome.date
+{
+	width: 15%;
+}
+
+h4 h5
+{
+}
+
+p	
+
+/*Contenu de la section 2 experience professionnelle */
+.fa-circle
+{
+	font-size: 80%;
+	margin-right: 10px;
+}
+
+section .i 
+{
+	color: #ffa500;
+}
+
+
+/*Tailles,marges et dates */
+
+
+i
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+.class
+{
+	text-align: center;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.diplome.date
+{
+	width: 15%;
+}
+
+h4 h5
+{
+	
+}
+p
+{
+	
+}
+
+
+.fa-circle
+{
+	font-size: 80%;
+	margin-right: 10px;
+}
+
+section .i 
+{
+	color: #ffa500;
+}
+
+
+/*Tailles,marges et dates */
+
+
+i
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+.class
+{
+	text-align: center;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 25px
+}
+
+.diplome.date
+{
+	width: 15%;
+}
+
+h4 h5
+{
+	
+}
+p
+{
+	
 }
 
 
