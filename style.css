@@ -35,9 +35,10 @@ aside
 	
 /*photo et marges */
 
-#photo 
+#photo
 { 
   	background-color:#ffa500;
+  	text-align: center;
 }
 
 .roundImage
@@ -50,7 +51,9 @@ aside
     max-height:150px;  
 }
 
-/*Partie section contact */
+
+/*Section contact */
+
 
 aside h3 
 { 
@@ -66,14 +69,19 @@ aside h3
  	border-radius: 1%;
 }
 
-p
-{	font-family: 'droid_sansbold', Arial, sans-serif}
+p 
 {
- 	font-size: 0.9em;
- 	text-align: center;
- 	font-weight: bold;			
+ 	font-size: 0.8em;
+ 	text-align: left;
+ 	font-weight: 300px;
+ 	margin-left: 25px;
+ 	margin-bottom: 15px;		
 }
 
+{	font-family: 'droid_sansbold', Arial, sans-serif}
+
+
+	
  /*Section a_propos_de_moi */
 
 h3 
