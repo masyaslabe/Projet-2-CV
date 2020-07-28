@@ -27,7 +27,7 @@ aside
 	flex-direction: column;
 	vertical-align: top;
 	background-color: #ffa500;
-	max-width: 400px;
+	max-width: 15%;
 	margin: 3px;
 	border: 1px;
 }
@@ -43,17 +43,16 @@ aside
 .roundImage
 {
     overflow:hidden;
-    -webkit-border-radius:100px;
-    -moz-border-radius:100px;
-    border-radius:100px;
-    max-width:100px;
-    max-height:100px;
-    
+    -webkit-border-radius:150px;
+    -moz-border-radius:150px;
+    border-radius:150px;
+    max-width:150px;
+    max-height:150px;  
 }
 
 /*Partie section contact */
 
-h3 
+aside h3 
 { 
 	border: 1px solid black;	
 	background-color:#000000; /*fond noir */
