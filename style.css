@@ -75,7 +75,7 @@ p
  	text-align: left;
  	font-weight: 300px;
  	margin-left: 25px;
- 	margin-bottom: 15px;		
+ 	margin-bottom: 10px;		
 }
 
 {	font-family: 'droid_sansbold', Arial, sans-serif}
@@ -84,33 +84,32 @@ p
 	
  /*Section a_propos_de_moi */
 
-h3 
+
+aside h3 
  { 	
 	background-color: #000000; /*fond noir */
+	color:#ffa500; 
  	text-transform: uppercase;
- 	text-align: left;
+ 	text-align: center;
  	font-weight: bold;
+ 	padding-top: 5px;
+	margin-bottom: 5px;
+  	font-size: 1.3em; 
+ 	border-radius: 1%;
  }
 
- .a_propos_de_moi
-
- {
- 	margin-bottom: 130px;
- 	font-size: 1em;
- 	padding-left: 40px;
- 	padding-right: 40px;
- 	
- 	color: #ffa500;
- }
-
-p
-{	font-family: 'droid_sansbold', Arial, sans-serif}
+ p
 { 
-	font-size: 0.9em;
+	font-size: 0.8em;
  	font-style: normal;
- 	text-align: left;
- 	width:30%;
+ 	text-align: justify;
+ 	margin-left: 25px;
+ 	margin-right: 25px;
 }
+
+{	font-family: 'droid_sansbold', Arial, sans-serif}
+
+
 
 /*Section Loisirs */
 
