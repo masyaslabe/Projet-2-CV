@@ -26,7 +26,6 @@ aside
 	display: flex;
 	flex-direction: column;
 	vertical-align: top;
-
 	background-color: #ffa500;
 	max-width: 400px;
 	margin: 3px;
@@ -38,8 +37,7 @@ aside
 
 #photo 
 { 
-  background-color:#ffa500;
-	
+  	background-color:#ffa500;
 }
 
 .roundImage
