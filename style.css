@@ -69,12 +69,13 @@ aside h3
  	border-radius: 1%;
 }
 
+/*Paragraphe dans contact */
 p 
 {
  	font-size: 0.8em;
  	text-align: left;
  	font-weight: 300px;
- 	margin-left: 25px;
+ 	margin-left: 13px;
  	margin-bottom: 10px;		
 }
 
@@ -110,67 +111,82 @@ aside h3
 {	font-family: 'droid_sansbold', Arial, sans-serif}
 
 
+/*Section loisirs */
 
-/*Section Loisirs */
-
-section.loisirs
+aside h3
  { 	
 	background-color: #000000; /*fond noir */
  	text-transform: uppercase;
  	text-align: center;
  	font-weight: bold;
+ 	padding-top: 5px;
+	margin-bottom: 5px;
+  	font-size: 1.3em; 
+ 	border-radius: 1%;
  }
-.loisirs
+
+ h3.loisirs
 {
 	display: flex;
-	justify-content: space-around;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	justify-content:space-around;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    text-align:center;
 }
 
-.icones
+i.fa-walking 
 {
- 	display: flex;
- 	border:3px solid black;
- 	width: 64px;
- 	line-height: 64px;
- 	height: 64px;
+ 	border:2px solid black;
+ 	color: black;
+ 	text-align: center;
+ 	width: 50px;
+ 	line-height:50px;
+ 	height: 50px;
  	border-radius: 100px;
 }
-.icones
+
+i.fa-seedling
 {
- 	display: flex;
- 	border:3px solid black;
- 	width: 64px;
- 	line-height: 64px;
- 	height: 64px;
+ 
+ 	border:2px solid black;
+ 	color: black;
+ 	width: 50px;
+ 	line-height: 50px;
+ 	height: 50px;
  	border-radius: 100px;
+ 	text-align: center;
 }
-.icones
+
+i.fa-ying-yang
 {
- 	display: flex;
+ 	
  	border:3px solid black;
- 	width: 64px;
- 	line-height: 64px;
- 	height: 64px;
+ 	color: black;
+ 	width: 50px;
+ 	line-height: 50px;
+ 	height: 50px;
  	border-radius: 100px;
+ 	text-align: center;
 }
+}
+
+
 /*Fin de aside */
 
-	/* Col_droite_principale */
 
+/* Col_droite_principale */
+
+ 
 main
+
 {
-	display: inline-block;
-	display: flex;
-	vertical-align: top;
-	flex-direction: column;
-	background-color: #ffffff;
-	width: 900px; 
-	{font-family: 'droid_sansbold', Arial, sans-serif}	
+	
+	width: 85%; 
+	height: auto;
 }
 
-/* titre principale*/
+
+/*Le titre principale de mon CV */
 
 header h1 h2
 {
@@ -185,7 +201,7 @@ header h1
     font-size: 40px;
     text-transform: uppercase; 
     margin-top: 80px;
-    padding-left: 23px;
+    padding-left: 50px;
   }
 
 .introduction
@@ -198,7 +214,7 @@ header h2
     font-size: 20px;
     text-align: left;
     padding-top: 2px; 
-    padding-left: 23px;
+    padding-left: 50px;
     margin-bottom:60px;    
 }
 
@@ -211,130 +227,149 @@ header h2
 /*Fin de header */
 
 
-/*Contenu de la section 1 formation */
+/*Contenu de la section formation */
+
+
+/*Article 1 dans formation */
 
 
 .fa-graduation-cap 
-
 {
+	background-image: #ffa500;
 	margin-right: 15px;
-	font-size: 20px;
+	font-size: 25px;
+	padding-left: 50px;
 }
 
-.fa-dot-circle 
-{
-	font-size: 80%;
-	margin-right: 10px;
-}
-
-section .i 
-{
-	color: #ffa500;
-}
-
-
-/*Tailles,marges et dates */
-
-
-h3 .formation .expe_pro .recom
+h3 .formation .expe_pro .recom;
 {
  	text-transform: uppercase;
  	font-weight: bold;
   	text-align: left;
   	margin-right:6%
   	margin-bottom: 2px;
-  	padding-bottom: 2px;	 
+  	padding-bottom: 2px; 
 }
+
+/*soulignement en desous formation */
 
 hr
 {
-	color: #ffa500;
+	background-color: #ffa500;	
+	text-align: left;
+  	margin-right:6%
+  	margin-bottom: 2px;
+  	padding-bottom: 2px;
 }
 
-i
-{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #ffa500;
-}
-
-.class
-{
-	text-align: center;
-}
 
 .diplome
 {
 	display: flex;
 	margin-top: 40px;
+	padding-left: 50px;
 	margin-bottom: 25px
 }
-
-.diplome.date
+.fa-dot-circle 
 {
-	width: 15%;
-}
-
-h4 h5
-{
-	
-}
-
-p
-{
-	
-}
-
-/*Contenu section 2 formation */
-
- 
-.fa-circle
-{
-	font-size: 80%;
+	font-size: 50%;
 	margin-right: 10px;
 }
 
-section .i 
+.class
 {
-	color: #ffa500;
+	text-align: center;	
 }
 
+/*dates_lieu */
 
-/*Tailles,marges et dates */
-
-
-i
+.date_lieu
 {
+	width: 15%;
+}
+h4 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #ffa500;
+	text-align: center;
+}
+h5
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center;
+}
+
+p
+
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center justify;	
+}
+
+/*article 2 dans formation */
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 25px
+}
+ .circle
+{
+	display: flex;
+	margin-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 25px
+}
+
+i.fa-circle
+{
+	font-size: 1%;
+	margin-right: 10px;
 }
 
 .class
 {
 	text-align: center;
 }
-
-.diplome
-{
-	display: flex;
-	margin-top: 40px;
-	margin-bottom: 25px
-}
-
-.diplome.date
+.date .lieu
 {
 	width: 15%;
+}
+i	
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
 }
 
 h4 h5
 {
 	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center;
 }
 
 p
 {
-	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center justify;	
+}
 }
 
 
