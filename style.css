@@ -18,7 +18,15 @@ title
 	display: block;
 }
 
-/*colgauche_gauche_principale */
+/*Fin head */
+
+
+/*body */
+
+body
+
+
+/*Aside, colgauche_gauche_principale */
 
 aside
 { 
@@ -33,7 +41,7 @@ aside
 }
 
 	
-/*photo et marges */
+/*photo  */
 
 #photo
 { 
@@ -52,10 +60,10 @@ aside
 }
 
 
-/*Section contact */
+/*Aside h3 */
 
 
-aside h3 
+ aside h3 
 { 
 	border: 1px solid black;	
 	background-color:#000000; /*fond noir */
@@ -68,6 +76,9 @@ aside h3
   	font-size: 1.3em; 
  	border-radius: 1%;
 }
+
+/*Section contact */
+
 
 /*Paragraphe dans contact */
 p 
@@ -82,22 +93,11 @@ p
 {	font-family: 'droid_sansbold', Arial, sans-serif}
 
 
+/*Fin de section contact */
+
 	
+
  /*Section a_propos_de_moi */
-
-
-aside h3 
- { 	
-	background-color: #000000; /*fond noir */
-	color:#ffa500; 
- 	text-transform: uppercase;
- 	text-align: center;
- 	font-weight: bold;
- 	padding-top: 5px;
-	margin-bottom: 5px;
-  	font-size: 1.3em; 
- 	border-radius: 1%;
- }
 
  p
 { 
@@ -110,6 +110,7 @@ aside h3
 
 {	font-family: 'droid_sansbold', Arial, sans-serif}
 
+ /*Fin de section a_propos_de_moi */
 
 /*Section loisirs */
 
@@ -168,13 +169,11 @@ i.fa-ying-yang
  	border-radius: 100px;
  	text-align: center;
 }
-}
+
+/*Fin de bloc aside */
 
 
-/*Fin de aside */
-
-
-/* Col_droite_principale */
+/* Main col_droite_principale */
 
  
 main
@@ -229,7 +228,6 @@ header h2
 
 /*Contenu de la section formation */
 
-
 /*Article 1 dans formation */
 
 
@@ -251,17 +249,14 @@ h3 .formation .expe_pro .recom;
   	padding-bottom: 2px; 
 }
 
-/*soulignement en desous formation */
+/*soulignement desous formation */
 
 hr
 {
-	background-color: #ffa500;	
-	text-align: left;
-  	margin-right:6%
-  	margin-bottom: 2px;
-  	padding-bottom: 2px;
+	border-radius: 3px solid #ffa500;
 }
 
+/* article 2 dans formation */
 
 .diplome
 {
@@ -304,14 +299,13 @@ h5
 	text-align: center;
 }
 
-p
 
+p
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 0px;
-	text-align: center justify;	
 }
 
 /*article 2 dans formation */
@@ -323,7 +317,198 @@ p
 	padding-left: 50px;
 	margin-bottom: 25px
 }
- .circle
+
+
+.fa-circle
+{
+	font-size: 1%;
+	margin-right: 10px;
+}
+
+.class
+{
+	text-align: center;
+}
+.date-lieu
+{
+	width: 15%;
+}
+i	
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+h4 h5
+{
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center;
+}
+
+p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center justify;	
+}
+
+/*Fin section formation */
+
+
+/*Contenu de la section experience professionnelle */
+
+
+/* 1 ère article dans exp_pro */
+
+.fa-briefcase
+{
+	background-image: #ffa500;
+	margin-right: 15px;
+	font-size: 25px;
+	padding-left: 50px;
+	margin-right: 15px;
+	font-size: 20px;
+}
+
+hr
+{
+	border: 1px solid #ffa500;
+}
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 25px
+}
+.fa-dot-circle 
+{
+	font-size: 50%;
+	margin-right: 10px;
+}
+
+
+.class
+{
+	text-align: center;	
+}
+
+/*dates_lieu */
+
+.date_lieu
+{
+	width: 15%;
+}
+i	
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+h4 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center;
+}
+h5
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;	
+}
+/* fin de 1ère article dans exp_pro */
+
+/*second article dans exp_pro */
+
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 25px
+}
+.fa_circle 
+{
+	font-size: 50%;
+	margin-right: 10px;
+}
+
+
+.class
+{
+	text-align: center;	
+}
+
+/*dates_lieu */
+
+.date_lieu
+{
+	width: 15%;
+}
+i	
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffa500;
+}
+
+h4 
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;
+	text-align: center;
+}
+h5
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+p
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 0px;	
+}
+/*fin second article dans exp_pro
+
+
+/* 3ème partie dans exp_pro */
+
+
+.diplome
+{
+	display: flex;
+	margin-top: 40px;
+	padding-left: 50px;
+	margin-bottom: 25px
+}
+ .fa-circle
 {
 	display: flex;
 	margin-top: 40px;
@@ -368,169 +553,10 @@ p
 	flex-direction: row;
 	justify-content: space-around;
 	margin-top: 0px;
-	text-align: center justify;	
-}
-}
-
-
-/*Fin section formation */
-
-
-/*Contenu de la section 1 de l'experience professionnelle */
-
-
-.fa-briefcase 
-
-{
-	margin-right: 15px;
-	font-size: 20px;
-}
-.fa-dot-circle 
-{
-	font-size: 80%;
-	margin-right: 10px;
-}
-
-i
-{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #ffa500;
-}
-
-.class
-{
-	text-align: center;
-}
-
-.diplome
-{
-	display: flex;
-	margin-top: 40px;
+	text-align: center;	
 	margin-bottom: 25px
 }
 
-.diplome.date
-{
-	width: 15%;
-}
+/*fin de la 3ème article dans exp_pro */
 
-h4 h5
-{
-}
-
-p	
-
-/*Contenu de la section 2 experience professionnelle */
-.fa-circle
-{
-	font-size: 80%;
-	margin-right: 10px;
-}
-
-section .i 
-{
-	color: #ffa500;
-}
-
-
-/*Tailles,marges et dates */
-
-
-i
-{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #ffa500;
-}
-
-.class
-{
-	text-align: center;
-}
-
-.diplome
-{
-	display: flex;
-	margin-top: 40px;
-	margin-bottom: 25px
-}
-
-.diplome.date
-{
-	width: 15%;
-}
-
-h4 h5
-{
-	
-}
-p
-{
-	
-}
-
-
-.fa-circle
-{
-	font-size: 80%;
-	margin-right: 10px;
-}
-
-section .i 
-{
-	color: #ffa500;
-}
-
-
-/*Tailles,marges et dates */
-
-
-i
-{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #ffa500;
-}
-
-.class
-{
-	text-align: center;
-}
-
-.diplome
-{
-	display: flex;
-	margin-top: 40px;
-	margin-bottom: 25px
-}
-
-.diplome.date
-{
-	width: 15%;
-}
-
-h4 h5
-{
-	
-}
-p
-{
-	
-}
-
-/*Finde la section expérience professionnelle */
-
-
-/*Contenu de la section 1 recommandations */
-
-
-.diplome_contenu_1 
-{
-	font-weight: bold;
-}
-
-.diplome_contenu_2 
-{
-	font-weight: bold;
-}
+/* fin section exp_pro */
