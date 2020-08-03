@@ -170,8 +170,6 @@ i.fa-ying-yang
  	text-align: center;
 }
 
-/*Fin de bloc aside */
-
 
 /* Main col_droite_principale */
 
@@ -560,3 +558,25 @@ p
 /*fin de la 3ème article dans exp_pro */
 
 /* fin section exp_pro */
+
+/*Section recommandations */
+
+h4
+{
+	margin-top: 0px;
+}
+.indication
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#conteur
+{
+	width: auto;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+
+
